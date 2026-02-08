@@ -1,0 +1,19 @@
+# kommentarerna är bara för att göra det lättare för mig själv 
+# att komma ihåg och förstå allt hehe
+
+name: MainPipeline
+on : [push] # med andra ord så kommer min pipeline att köras varje gång jag pushar kod
+
+jobs:
+  code-verification-job:
+    runs-on: ubuntu-latest # man lånar en linux dator från github
+    steps:
+        - uses: actions/checkout@v4
+        - uses: actions/setup-node@v4
+          with:
+            node-version: 20
+        - run: npm install
+        - run: npm run lint
+        - run: npm run test
+              
+         

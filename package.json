@@ -1,0 +1,28 @@
+{
+  "name": "k3u1-photogallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melle1010/K3U1-PhotoGallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Melle1010/K3U1-PhotoGallery/issues"
+  },
+  "homepage": "https://github.com/Melle1010/K3U1-PhotoGallery#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0",
+    "jest": "^29.7.0"
+  }
+}

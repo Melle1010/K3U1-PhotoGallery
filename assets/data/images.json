@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "category": "fish",
+    "tags": ["blue", "yellow", "tropical"],
+    "thumb": "assets/imgs/fish/thumb/blue-yellow-fish-blue-background-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/blue-yellow-fish-blue-background.jpg",
+    "alt": "A group of blue fish with yellow highlights in sunny water."
+  },
+  {
+    "id": 2,
+    "category": "fish",
+    "tags": ["blue", "yellow", "tang"],
+    "thumb": "assets/imgs/fish/thumb/doris-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/doris.jpg",
+    "alt": "A single blue tang fish, commonly known as Dory."
+  },
+  {
+    "id": 3,
+    "category": "fish",
+    "tags": ["dark", "shadow", "school"],
+    "thumb": "assets/imgs/fish/thumb/fish-in-shadow-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/fish-in-shadow.jpg",
+    "alt": "Silhouettes of a school of fish in dark water."
+  },
+  {
+    "id": 4,
+    "category": "fish",
+    "tags": ["gray", "yellow", "group"],
+    "thumb": "assets/imgs/fish/thumb/gray-yellow-fish-bright-blue-background-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/gray-yellow-fish-bright-blue-background.jpg",
+    "alt": "Gray and yellow fish swimming together in bright blue water."
+  },
+  {
+    "id": 5,
+    "category": "fish",
+    "tags": ["small", "silver", "swarm"],
+    "thumb": "assets/imgs/fish/thumb/many-small-fish-light-blue-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/many-small-fish-light-blue.jpg",
+    "alt": "Masses of small silver fish in light blue water."
+  },
+  {
+    "id": 6,
+    "category": "fish",
+    "tags": ["orange", "dark", "goldfish"],
+    "thumb": "assets/imgs/fish/thumb/orange-fish-dark-background-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/orange-fish-dark-background.jpg",
+    "alt": "Orange fish glowing against a dark background."
+  },
+  {
+    "id": 7,
+    "category": "fish",
+    "tags": ["orange", "gray", "swimming"],
+    "thumb": "assets/imgs/fish/thumb/orange-fish-gray-background-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/orange-fish-gray-background.jpg",
+    "alt": "Orange fish swimming near a gray seabed."
+  },
+  {
+    "id": 8,
+    "category": "fish",
+    "tags": ["orange", "turquoise", "vibrant"],
+    "thumb": "assets/imgs/fish/thumb/orange-fish-turquoise-background-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/orange-fish-turquoise-background.jpg",
+    "alt": "Beautiful orange fish in vibrant turquoise water."
+  },
+  {
+    "id": 9,
+    "category": "fish",
+    "tags": ["orange", "white", "pattern"],
+    "thumb": "assets/imgs/fish/thumb/orange-white-fish-blue-background-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/orange-white-fish-blue-background.jpg",
+    "alt": "Orange and white patterned fish swimming in blue water."
+  },
+  {
+    "id": 10,
+    "category": "fish",
+    "tags": ["turquoise", "reef", "single"],
+    "thumb": "assets/imgs/fish/thumb/turquoise-fish-blue-background-thumbnail.jpg",
+    "full": "assets/imgs/fish/full/turquoise-fish-blue-background.jpg",
+    "alt": "A turquoise fish near a coral reef."
+  },
+  {
+    "id": 11,
+    "category": "birds",
+    "tags": ["black", "perched", "crow"],
+    "thumb": "assets/imgs/birds/thumb/black-bird-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/black-bird.jpg",
+    "alt": "A sleek black bird perched on a rock."
+  },
+  {
+    "id": 12,
+    "category": "birds",
+    "tags": ["black", "greenery", "branch"],
+    "thumb": "assets/imgs/birds/thumb/black-bird-on-branch-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/black-bird-on-branch.jpg",
+    "alt": "A black bird resting on a thin branch against a green background."
+  },
+  {
+    "id": 13,
+    "category": "birds",
+    "tags": ["blue", "gray", "mohawk", "crest"],
+    "thumb": "assets/imgs/birds/thumb/blue-gray-bird-mohawk-on-branch-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/blue-gray-bird-mohawk-on-branch.jpg",
+    "alt": "A blue and gray bird with a distinct crest or mohawk on its head."
+  },
+  {
+    "id": 14,
+    "category": "birds",
+    "tags": ["blue", "gray", "branch", "back-turned"],
+    "thumb": "assets/imgs/birds/thumb/blue-gray-bird-on-branch-faced-away-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/blue-gray-bird-on-branch-faced-away.jpg",
+    "alt": "A blue bird seen from behind, perched on a mossy branch."
+  },
+  {
+    "id": 15,
+    "category": "birds",
+    "tags": ["blue", "yellow", "small", "tit"],
+    "thumb": "assets/imgs/birds/thumb/blue-yellow-bird-on-branch-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/blue-yellow-bird-on-branch.jpg",
+    "alt": "A small blue and yellow bird looking curious on a branch."
+  },
+  {
+    "id": 16,
+    "category": "birds",
+    "tags": ["brown", "gray", "yellow-beak", "thrush"],
+    "thumb": "assets/imgs/birds/thumb/brown-gray-bird-with-yellow-beak-on-branch-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/brown-gray-bird-with-yellow-beak-on-branch.jpg",
+    "alt": "A brown and gray bird with a bright yellow beak perched among buds."
+  },
+  {
+    "id": 17,
+    "category": "birds",
+    "tags": ["orange", "gray", "robin", "blue-tint"],
+    "thumb": "assets/imgs/birds/thumb/orange-gray-bird-on-blueish-branch-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/orange-gray-bird-on-blueish-branch.jpg",
+    "alt": "An orange-chested bird on a branch with a cool blueish light."
+  },
+  {
+    "id": 18,
+    "category": "birds",
+    "tags": ["orange", "gray", "robin", "nature"],
+    "thumb": "assets/imgs/birds/thumb/orange-gray-bird-on-branch-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/orange-gray-bird-on-branch.jpg",
+    "alt": "A robin-like bird with an orange chest looking forward."
+  },
+  {
+    "id": 19,
+    "category": "birds",
+    "tags": ["multi-colored", "yellow", "white", "string"],
+    "thumb": "assets/imgs/birds/thumb/orange-white-yellow-black-bird-on-white-string-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/orange-white-yellow-black-bird-on-white-string.jpg",
+    "alt": "A colorful little bird perched on a thick white cable or string."
+  },
+  {
+    "id": 20,
+    "category": "birds",
+    "tags": ["red", "cardinal", "mohawk", "vibrant"],
+    "thumb": "assets/imgs/birds/thumb/red-bird-with-mohawk-on-branch-thumbnail.jpg",
+    "full": "assets/imgs/birds/full/red-bird-with-mohawk-on-branch.jpg",
+    "alt": "A vibrant red cardinal with a sharp mohawk perched on a branch."
+  },
+  {
+    "id": 21,
+    "category": "insects",
+    "tags": ["ants", "crawling", "branch", "teamwork"],
+    "thumb": "assets/imgs/insects/thumb/ants-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/ants.jpg",
+    "alt": "A group of ants crawling along a tree branch."
+  },
+  {
+    "id": 22,
+    "category": "insects",
+    "tags": ["bee", "flying", "pollen", "yellow"],
+    "thumb": "assets/imgs/insects/thumb/bee-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/bee.jpg",
+    "alt": "A honeybee in flight near a bright yellow flower."
+  },
+  {
+    "id": 23,
+    "category": "insects",
+    "tags": ["butterfly", "monarch", "wings", "orange"],
+    "thumb": "assets/imgs/insects/thumb/butterfly-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/butterfly.jpg",
+    "alt": "A monarch butterfly with vibrant orange and black wings."
+  },
+  {
+    "id": 24,
+    "category": "insects",
+    "tags": ["cicada", "green", "wings", "leaf"],
+    "thumb": "assets/imgs/insects/thumb/cicada-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/cicada.jpg",
+    "alt": "A large green cicada resting on a leaf."
+  },
+  {
+    "id": 25,
+    "category": "insects",
+    "tags": ["firefly", "glow", "night", "beetle"],
+    "thumb": "assets/imgs/insects/thumb/firefly-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/firefly.jpg",
+    "alt": "A firefly perched on a blade of grass."
+  },
+  {
+    "id": 26,
+    "category": "insects",
+    "tags": ["fly", "metallic", "green", "macro"],
+    "thumb": "assets/imgs/insects/thumb/fly-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/fly.jpg",
+    "alt": "A close-up of a common fly with metallic green coloring."
+  },
+  {
+    "id": 27,
+    "category": "insects",
+    "tags": ["grasshopper", "green", "jumping", "leaf"],
+    "thumb": "assets/imgs/insects/thumb/grasshopper-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/grasshopper.jpg",
+    "alt": "A bright green grasshopper camouflaged on a leaf."
+  },
+  {
+    "id": 28,
+    "category": "insects",
+    "tags": ["ladybug", "red", "spots", "beetle"],
+    "thumb": "assets/imgs/insects/thumb/ladybug-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/ladybug.jpg",
+    "alt": "A small red ladybug with black spots on a dried leaf."
+  },
+  {
+    "id": 29,
+    "category": "insects",
+    "tags": ["mosquito", "blood", "pest", "macro"],
+    "thumb": "assets/imgs/insects/thumb/mosquito-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/mosquito.jpg",
+    "alt": "A close-up of a mosquito on a surface."
+  },
+  {
+    "id": 30,
+    "category": "insects",
+    "tags": ["moth", "white", "fuzzy", "wings"],
+    "thumb": "assets/imgs/insects/thumb/moth-thumbnail.jpg",
+    "full": "assets/imgs/insects/full/moth.jpg",
+    "alt": "A white fuzzy moth clinging to a blade of grass."
+  },
+  {
+    "id": 31,
+    "category": "mammals",
+    "tags": ["cat", "feline", "pet", "whiskers"],
+    "thumb": "assets/imgs/mammals/thumb/cat-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/cat.jpg",
+    "alt": "A close-up of a domestic cat looking directly at the camera."
+  },
+  {
+    "id": 32,
+    "category": "mammals",
+    "tags": ["cow", "farm", "bovine", "spotted"],
+    "thumb": "assets/imgs/mammals/thumb/cow-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/cow.jpg",
+    "alt": "A black and white spotted cow in a field."
+  },
+  {
+    "id": 33,
+    "category": "mammals",
+    "tags": ["lamb", "sheep", "young", "fluffy"],
+    "thumb": "assets/imgs/mammals/thumb/lamb-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/lamb.jpg",
+    "alt": "A fluffy young lamb standing in the sunlight."
+  },
+  {
+    "id": 34,
+    "category": "mammals",
+    "tags": ["monkey", "primate", "sitting", "chimpanzee"],
+    "thumb": "assets/imgs/mammals/thumb/monkey-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/monkey.jpg",
+    "alt": "A chimpanzee sitting on the ground looking thoughtful."
+  },
+  {
+    "id": 35,
+    "category": "mammals",
+    "tags": ["panda", "bear", "bamboo", "black-and-white"],
+    "thumb": "assets/imgs/mammals/thumb/panda-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/panda.jpg",
+    "alt": "A giant panda eating bamboo leaves."
+  },
+  {
+    "id": 36,
+    "category": "mammals",
+    "tags": ["pig", "farm", "swine", "mud"],
+    "thumb": "assets/imgs/mammals/thumb/pig-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/pig.jpg",
+    "alt": "A pig resting in a sandy or muddy enclosure."
+  },
+  {
+    "id": 37,
+    "category": "mammals",
+    "tags": ["raccoon", "procyon", "masked", "wildlife"],
+    "thumb": "assets/imgs/mammals/thumb/raccoon-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/raccoon.jpg",
+    "alt": "A raccoon with its characteristic mask looking curious."
+  },
+  {
+    "id": 38,
+    "category": "mammals",
+    "tags": ["rhino", "rhinoceros", "horn", "large"],
+    "thumb": "assets/imgs/mammals/thumb/rhino-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/rhino.jpg",
+    "alt": "A large rhinoceros walking across dry ground."
+  },
+  {
+    "id": 39,
+    "category": "mammals",
+    "tags": ["squirrel", "rodent", "autumn", "leaves"],
+    "thumb": "assets/imgs/mammals/thumb/squirrel-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/squirrel.jpg",
+    "alt": "A squirrel perched among orange autumn leaves."
+  },
+  {
+    "id": 40,
+    "category": "mammals",
+    "tags": ["tiger", "feline", "striped", "predator"],
+    "thumb": "assets/imgs/mammals/thumb/tiger-thumbnail.jpg",
+    "full": "assets/imgs/mammals/full/tiger.jpg",
+    "alt": "A majestic tiger with sharp orange and black stripes."
+  }
+]

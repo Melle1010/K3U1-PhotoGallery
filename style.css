@@ -5,6 +5,57 @@
 body{
     background-color: rgb(21, 114, 176);
 }
+.disableOverflow{
+    overflow-y: hidden;
+}
+.hidden {
+    display: none;
+}
+#background-dimmer{
+    position: fixed; /* Eller absolute, beroende på din layout */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+#full-image-section{
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 90vw;
+    height: 90vw;
+    z-index: 3;
+}
+#full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block
+}
+
+#close {
+    position: absolute;
+    top: 0;   /* Längst upp */
+    right: 0; /* Längst till höger */
+    
+    /* Din styling */
+    padding: 5px;
+    border: none;
+    border-radius: 0 0 0 5px; /* Snygg detalj: rundat hörn inåt */
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    z-index: 4; /* Måste vara högre än bildens container om den har z-index */
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* ------- */
+
 button:hover{
     cursor: pointer;
 }
@@ -37,16 +88,36 @@ header form input{
     margin: 5px;
 }
 header form button{
-    width: 50px;
-    height: 25px;
+    width: 100px;
+    height: 30px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    text-shadow: 0px 1.5px 3px black;
+    box-shadow: 0 0 5px -3px black;
+}
+#category-buttons-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(221, 129, 0);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+#category-buttons-nav button{
+    padding: 5px;
     border: none;
     border-radius: 5px;
     background-color: rgb(0, 157, 255);
     color: white;
     text-shadow: 1px 1px 1px black;
-    box-shadow: 0 0 5px -3px black;
+    box-shadow: 0 0 5px -3px black; 
 }
-
     
 #image-section{
     display: flex;
@@ -68,10 +139,22 @@ header form button{
     box-shadow: 0 0 15px gray;
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: 0 0 20px -5px black;
+    box-shadow: 0 0 20px -5px rgb(0, 0, 0);
 }
 
 footer{
     color: rgb(215, 215, 215);
     margin: 10px;
+}
+
+@media (min-width: 768px) {
+    #full-image-section{
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 90vh;
+    height: 90vh;
+    z-index: 3;
+}
 }

@@ -13,7 +13,7 @@ function searchImages(images, query) {
     );
 }
 
-// --- DOM / UI (Detta körs bara i webbläsaren) ---
+// grafiken
 if (typeof document !== 'undefined') {
     
     const imageSection = document.querySelector('#image-section');
@@ -26,7 +26,7 @@ if (typeof document !== 'undefined') {
         try {
             const response = await fetch('assets/data/images.json');
             allImages = await response.json();
-            renderImages(allImages); // Rita ut allt från början
+            renderImages(allImages);
         } catch (error) {
             console.error('Error:', error);
         }
@@ -70,7 +70,7 @@ if (typeof document !== 'undefined') {
         });
     }
 
-    // Event listeners för Kategori-knappar
+    
     document.querySelectorAll('#category-buttons-nav button').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const category = e.target.id;
@@ -79,7 +79,7 @@ if (typeof document !== 'undefined') {
         });
     });
 
-    // Event listener för Sök
+    
     const searchInput = document.querySelector('#site-search');
     searchInput.addEventListener('input', (e) => {
         const query = e.target.value;
@@ -87,6 +87,17 @@ if (typeof document !== 'undefined') {
         renderImages(result);
     });
 
-    // Starta appen
+    
     init();
+}
+
+// behöver ha en if sats här för att det ska funka i webläsaren
+// så jag förstår det är för att 'module' finns bara i node.js
+// alltså kommer den vara undefined i browser så den kommer inte runnas i browsern
+// men kommer ändå att fungera för tester
+if (typeof module !== 'undefined') {
+    module.exports = {
+        filterImagesByCategory,
+        searchImages
+    };
 }

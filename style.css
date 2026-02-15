@@ -38,17 +38,15 @@ body{
 
 #close {
     position: absolute;
-    top: 0;   /* Längst upp */
-    right: 0; /* Längst till höger */
-    
-    /* Din styling */
+    top: 0;
+    right: 0; 
     padding: 5px;
     border: none;
-    border-radius: 0 0 0 5px; /* Snygg detalj: rundat hörn inåt */
+    border-radius: 0 0 0 5px;
     background-color: rgb(255, 0, 0);
     color: white;
     cursor: pointer;
-    z-index: 4; /* Måste vara högre än bildens container om den har z-index */
+    z-index: 4; 
 }
 @keyframes zoom {
   from {transform:scale(0)} 

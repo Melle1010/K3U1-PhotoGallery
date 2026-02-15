@@ -12,7 +12,7 @@ body{
     display: none;
 }
 #background-dimmer{
-    position: fixed; /* Eller absolute, beroende på din layout */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -52,13 +52,11 @@ body{
   from {transform:scale(0)} 
   to {transform:scale(1)}
 }
-/* ------- */
 
 button:hover{
     cursor: pointer;
 }
 
-/* Header */
 header{
     display: flex;
     flex-wrap: wrap;

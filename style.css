@@ -136,6 +136,7 @@ header form button{
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 0 20px -5px rgb(0, 0, 0);
+    transition: .1s;
 }
 
 footer{
@@ -152,6 +153,10 @@ footer{
     width: 75vh;
     height: 75vh;
     z-index: 3;
+    }
+    #image-section img:hover{
+        cursor: pointer;
+        scale: 1.005;
     }
 }
 @media (min-width: 928px) {

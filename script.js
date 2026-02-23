@@ -41,14 +41,12 @@ if (typeof document !== 'undefined') {
         }
 
         imagesToRender.forEach(imgData => {
-            // Skapa semantiska element
             const img = document.createElement('img');
             
             img.src = imgData.thumb;
             img.alt = imgData.alt;
             img.loading = 'lazy';
             
-            // Click event för Modal (UPPGIFT: Visa stor bild)
             img.addEventListener('click', () => openFullImage(imgData));
 
             imageSection.appendChild(img);
@@ -90,6 +88,7 @@ if (typeof document !== 'undefined') {
     
     init();
 }
+
 
 // behöver ha en if sats här för att det ska funka i webläsaren
 // så jag förstår det är för att 'module' finns bara i node.js
